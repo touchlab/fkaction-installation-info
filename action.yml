@@ -1,0 +1,10 @@
+name: 'Touchlab'
+description: 'Merges dev to main'
+author: 'Kevin Galligan'
+inputs:
+  FAKTORY_SECRET_KEY:
+    required: true
+    description: 'Faktory secret key'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
